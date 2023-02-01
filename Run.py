@@ -3,7 +3,7 @@ import os, sys, platform
      import requests 
  except: 
      os.system('pip install requests') 
- os.system('xdg-open https://facebook.com/groups/3465474777107830/') 
+ os.system('xdg-open https://github.com/D4rk-B0y') 
   
  bit = platform.architecture()[0] 
  if bit == '64bit': 
