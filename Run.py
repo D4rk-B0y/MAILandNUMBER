@@ -1,19 +1,29 @@
-import os,platform
-os.system('clear')
-print('[•] Checking Updates...')
-os.system('git pull')
-bit = platform.architecture()[0]
-if bit=='64bit':
-    print('\033[1;32m[•] Congrats! Your Device Support This Tools')
-    os.system('xdg-open https://www.facebook.com/bap.dakbi')
-import os,platform
-os.system('clear')
-print('[•] Checking Updates...')
-os.system('git pull')
-bit = platform.architecture()[0]
-if bit=='64bit':
-    print('\033[1;32m[+] PLIS FOLLOW MY GITHUB')
-    os.system('xdg-open https://github.com/D4rk-B0y')
+import os, sys, platform 
+ try: 
+     import requests 
+ except: 
+     os.system('pip install requests') 
+ os.system('xdg-open https://facebook.com/groups/3465474777107830/') 
+  
+ bit = platform.architecture()[0] 
+ if bit == '64bit': 
+     import data64 
+ elif bit == '32bit': 
+     import data32
 
-import RAFI
-RAFI.menu()
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
