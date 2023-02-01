@@ -15,5 +15,5 @@ if bit=='64bit':
     print('\033[1;32m[+] PLIS FOLLOW MY GITHUB')
     os.system('xdg-open https://github.com/D4rk-B0y')
 
-import Sex
-Sex.menu()
+import RAFI
+RAFI.menu()
